@@ -36,7 +36,8 @@
 }
 .banner .banner-content {
   position: relative;
-  padding-top: 300px;
+  padding-top: 250px;
+  /* padding-bottom: 50px; */
   z-index: 10;
 }
 @media (max-width: 600px) {
@@ -47,7 +48,7 @@
 .banner .banner-content h1 {
   color: white;
   font-size: 60px;
-  font-family: "Rufina";
+  font-family: "poppins";
 }
 @media (max-width: 600px) {
   .banner .banner-content h1 {
@@ -73,17 +74,27 @@
 }
 
 .banner-bottom {
-  background: var(--primary);
-  padding: 20px 0px;
+  background: #ffbb6bc2;
+  padding: 20px 0px;    position: absolute;
+  z-index: 10;
+  bottom: 0;
+  width: 100%;
+}
+.banner-bottom ul{
+  margin: 0;
 }
 .banner-bottom li{
   list-style: none;
   margin-right: 10px;
+  color: white;
 }
 .banner-bottom li a{
   text-decoration: none;
+  color: white;
 }
 .banner-bottom p {
   padding: 0;
   margin: 0;
+  font-weight: 400;
+  opacity: 1;
 }/*# sourceMappingURL=banner.css.map */

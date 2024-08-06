@@ -1,4 +1,5 @@
 .services {
+  overflow: hidden;
   margin-top: 80px;
   margin-bottom: 50px;
   text-align: center;
@@ -42,6 +43,9 @@
   padding: 20px;
   width: 100%;
 }
+.services .services-box .services-content .h4{
+  color: #fed29efa;
+}
 .services .services-box .services-content a {
   position: absolute;
   bottom: -50px;
@@ -73,23 +77,41 @@
 }/*# sourceMappingURL=services.css.map */
 .services-inner{
   text-align: justify;
+  
 }
 
 .services-slider .services-slider-box{
   position: relative;
   overflow: hidden;
-  padding-bottom: 30p;
+  margin-bottom: 30px;
+  margin: 20px;
 }
 
+.services-slider .services-slider-box img{
+  height: 500px;
+  object-fit: cover;
+  object-position: top;
+}
 .services-slider .services-slider-box .services-slider-content{
   position: absolute;
-  top: 60%;
+  top: 80%;
   padding: 10px;  
-  height: 200px;
-  background-color: #ffffffd8;
-  width: 100%;
-}
-.services-slider:hover .services-slider-content{
-  top: 0;
   height: 100%;
+  background-color: #ffbb6bc7;
+  width: 100%;
+  overflow: hidden;
 }
+
+.services-slider .services-slider-box .services-slider-content a{
+  font-size: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+  /* .services-slider-box:hover .services-slider-content{
+    top: 0;
+    height: 100%;
+  } */

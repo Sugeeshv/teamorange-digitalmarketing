@@ -3,6 +3,7 @@
      <link rel="stylesheet" href="{{asset('web/css/vendoor/about.css')}}">
      <link rel="stylesheet" href="{{asset('web/css/vendoor/logoslider.css')}}">
      <link rel="stylesheet" href="{{asset('web/css/vendoor/team.css')}}">
+     <link rel="stylesheet" href="{{asset('web/css/vendoor/services.css')}}">
 @endpush
 @extends('layouts.web')
 
@@ -84,14 +85,14 @@
                 </div>
             </div>
         </div>
-      </section>
-      <section class="banner-bottom" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="2000">
+      <div class="banner-bottom" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="2000">
         <div class="container">
             <ul class="d-flex">
                 <li><a href="{{url('about')}}">About</a></li>
                 <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
             </ul>
         </div>
+      </div>
       </section>
       <section class="about">
         <div class="container">
@@ -164,22 +165,32 @@
             </div>
         </div>
       </section>
-      <section class="logoslider" data-aos="zoom-out-up" data-aos-duration="1000"  >
-        <div class="container" id="logo-slder">
-            <img src="{{asset('web/images/logo/1.png')}}" alt="">
-            <img src="{{asset('web/images/logo/2.png')}}" alt="">
-            <img src="{{asset('web/images/logo/3.png')}}" alt="">
-            <img src="{{asset('web/images/logo/4.png')}}" alt="">
-            <img src="{{asset('web/images/logo/5.png')}}" alt="">
-            <img src="{{asset('web/images/logo/2.png')}}" alt="">
+      
+      <div class="services-slider mt-5">
+        <div class="container">
+            <div class="row" id="logo-slder">
+            @foreach($services as $se)
+                <div class="">
+                    <div class="services-slider-box">
+                    <img class="w-100" src="{{asset('')}}storage/{{$se->img}}" alt="">
+
+                    <div class="services-slider-content">
+                            <h2 class="h4 fs-50"></h2>
+                            <!-- <p>{{$se->description}}</p> -->
+                            <a href="{{url('services-view',$se->id)}}">{{$se->title}}</a>
+                        </div>
+                    </div>
+                </div>
+                @endforeach
+            </div>
         </div>
-      </section>
+      </div>  
       
       <section class="team">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 mb-5">
-                    <h5 class="title" data-aos="zoom-out-up" data-aos-duration="1000">Our team</h5>
+                    <h5 class="title" data-aos="zoom-out-up" data-aos-duration="1000">Our Projects</h5>
                 </div>
                 <div class="col-md-4">
                     <div class="team-box" data-aos="zoom-out-up" data-aos-duration="500" >

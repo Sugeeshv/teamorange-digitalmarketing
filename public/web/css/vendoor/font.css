@@ -152,6 +152,10 @@
   font-style: normal;
   font-display: swap;
 }
+body,html{
+
+  font-family: "Roboto";
+}
 .fs-19 {
   font-size: 19px;
 }
@@ -203,6 +207,9 @@
 
 .fs-35 {
   font-size: 35px;
+}
+.fs-50{
+  font-size: 50px;
 }
 
 .fs-45 {
@@ -279,4 +286,7 @@ video{
 }
 .text-white{
   color: white!important;
+}
+.text-primary{
+  color: #87bfdb!important;
 }

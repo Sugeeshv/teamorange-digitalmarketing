@@ -84,6 +84,8 @@
 														<div class="d-flex">
 															<a href="{{url('services-distroy',$ser->id)}}" class="btn btn-primary">Delete</a>
 															<a href="{{url('services-view',$ser->id)}}" class="btn btn-primary ms-2 ">View</a>
+															<!-- <a href="{{url('services-view',$ser->id)}}" class="btn btn-primary ms-2 ">View</a>	   -->
+															<a href="{{url('services-view',$ser->id)}}" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target=".bs-example-modal-lg-update">Large modal</a>
 														</div>
 													</td>
                                                 </tr>
@@ -102,6 +104,28 @@
 				  </div>
 			</div>
 			
+  <!-- /.modal -->
+   
+  <div class="modal fade bs-example-modal-lg-update" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" style="display: none;">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myLargeModalLabel">Large modal</h4>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<h4>Overflowing text to show scroll behavior</h4>
+					<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+					<p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger text-start" data-bs-dismiss="modal">Close</button>
+				</div>
+			</div>
+			<!-- /.modal-content -->
+		</div>
+		<!-- /.modal-dialog -->
+	</div>
   <!-- /.modal -->
 
   <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" style="display: none;">

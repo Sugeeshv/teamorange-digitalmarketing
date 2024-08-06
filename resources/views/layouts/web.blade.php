@@ -73,8 +73,9 @@
                     </form> -->
                     <div class="d-flex justify-between social-box mt-50" data-aos="fade-up"
                     data-aos-duration="3000">
-                        <p>Share</p>
+                        <p>Social media</p>
                         <ul class="social">
+                            <li><a href="tel:9847219155"> <i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
                             <li><a href="https://www.facebook.com/rahemon?mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
                             <!-- <li><a href=""><i class="fa fa-twitter" aria-hidden="true" target="_blank"></i></a></li> -->
                             <li><a href="https://www.instagram.com/raheez_ziya_khan?igsh=Z2VrYXJkOWpmdGsz" target="_blank"><i class="fa fa-instagram" aria-hidden="true" target="_blank"></i></a></li>
@@ -88,11 +89,15 @@
             <div class="bottom-footer">
                 <ul class="ms-auto">
                     <li>Powerd by </li>
-                    <li><a class="text-white" href="">Pixexmedia Solutions</a></li>
+                    <li><a class="text-white text-primary" href="">Pixel media Solutions</a></li>
                 </ul>
             </div>
         </div>
       </footer>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://api.whatsapp.com/send?phone=9847219155&text=Hi." class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
     <!-- <script src="./assets/vendoor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>

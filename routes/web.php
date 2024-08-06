@@ -36,4 +36,5 @@ Route::get('/contact-delete/{id}', [ContactsController::class, 'distroy']);
 Route::get('/services-view', [ServicesController::class, 'view']);
 Route::post('/services-save', [ServicesController::class, 'save']);
 Route::get('/services-distroy/{id}', [ServicesController::class, 'distroy']);
+Route::get('/services-edit/{id}', [ServicesController::class, 'edit']);
 });

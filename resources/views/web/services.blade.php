@@ -17,21 +17,21 @@
               </div>
           </div>
       </div>
-    </section>
-      <section class="banner-bottom" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="2000">
+      <div class="banner-bottom" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="2000">
         <div class="container">
             <ul class="d-flex">
                 <li><a href="{{url('services')}}">Services</a></li>
                 <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
             </ul>
         </div>
-      </section>
+      </div>
+    </section>
       <section class="services">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <h4 class="title" data-aos="zoom-out-left" data-aos-duration="1000">Our Services</h4>
-                    <p class="font-lora" data-aos="zoom-out-left" data-aos-duration="1000">Lorem ipsum is a pseudo-Latin text used in web design typography layout </p>
+                    <p class="font-lora" data-aos="zoom-out-left" data-aos-duration="1000">At TeamOrange, our journey is marked by innovation and growth. <br> Our goal was to deliver cutting-edge solutions with excellence. </p>
                 </div>
                 @foreach($services as $se)
                 <div class="col-md-4" data-aos="zoom-out-left" data-aos-duration="1000">

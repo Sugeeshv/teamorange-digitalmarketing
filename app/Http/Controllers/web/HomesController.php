@@ -41,7 +41,8 @@ class HomesController extends Controller
     {
         // dd("hi");
         $sere = Services::latest()->take(6)->get(); 
+        $services = Services::all(); // Retrieve all posts
 
-        return view('web.about', compact('sere'));
+        return view('web.about', compact('sere','services'));
     }
 }

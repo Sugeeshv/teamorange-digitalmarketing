@@ -13,7 +13,7 @@
 }
 
 .btn-primary {
-  color: black !important;
+  color: rgb(255, 255, 255) !important;
   background: var(--primary);
   border: solid 0px;
 }

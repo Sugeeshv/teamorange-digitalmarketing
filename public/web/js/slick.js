@@ -2,12 +2,13 @@ $('#logo-slder').slick({
     slidesToShow: 1,
     autoplay: true,
     arrows: false,
+    centerPadding: '160px',
     responsive: [
       {
         breakpoint: 768,
         settings: {
           arrows: false,
-          slidesToShow: 3
+          slidesToShow: 1
         }
       },
       {

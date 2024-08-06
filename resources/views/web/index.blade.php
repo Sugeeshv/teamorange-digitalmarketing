@@ -16,8 +16,8 @@
             <div class="row">
                 <div class="col-md-9 m-auto text-center">
                     <h1 data-aos="fade-up" data-aos-duration="3000" data-aos-delay="500">Team orange waterproof works & also we undertake all kinds of civil construction works</h1>
-                    <p class="fs-19" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="700">Explore our curated collection of stylish clothing and accessories tailored to your unique taste.</p>
-                    <a type="button" href="{{url('services')}}" class="btn btn-primary btn-shadow" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="900">Explore Now</a>
+                    <p class="fs-17" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="700">Team Orange excels in providing top-notch waterproofing solutions and undertakes all types of civil construction projects, delivering expertise and quality in every aspect of construction and protection.</p>
+                    <a type="button" href="{{url('services')}}" class="btn btn-primary btn-shadow" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="900">Services</a>
                     <a type="button" href="{{url('contact')}}" class="btn btn-border pl-4" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="1000">Contact us</a>
                 </div>
                 <div class="col-md-5" style="position: relative;" data-aos="fade-up" data-aos-duration="3000" >
@@ -26,13 +26,13 @@
                 </div>
             </div>
         </div>
-      </section>
-      <section class="banner-bottom" data-aos="fade-down"
+      <div class="banner-bottom" data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500">
         <div class="container">
-            <p>Explore our curated collection of stylish clothing</p>
+            <p class="text-center">Team Orange specializes in waterproofing solutions and offers a full range of civil construction services.</p>
         </div>
+</div>
       </section>
       <section class="about">
         <div class="container">
@@ -109,25 +109,25 @@
             </div>
         </div>
       </section>
-      <!-- <div class="services-slider">
+      <div class="services-slider">
         <div class="container">
             <div class="row" id="logo-slder">
             @foreach($services as $se)
-                <div class="col-md-4">
+                <div class="">
                     <div class="services-slider-box">
                     <img class="w-100" src="{{asset('')}}storage/{{$se->img}}" alt="">
 
                     <div class="services-slider-content">
-                            <div class="h4 fs-20">{{$se->title}}</div>
-                            <p>{{$se->shortdescription}}</p>
-                            <a href="{{url('services-view',$se->id)}}"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                            <h2 class="h4 fs-50"></h2>
+                            <!-- <p>{{$se->description}}</p> -->
+                            <a href="{{url('services-view',$se->id)}}">{{$se->title}}</a>
                         </div>
                     </div>
                 </div>
                 @endforeach
             </div>
         </div>
-      </div> -->
+      </div>
       <!-- <section class="logoslider" data-aos="zoom-out-up" data-aos-duration="1000"  >
         <div class="container" id="logo-slder">
             <img src="{{asset('web/images/logo/1.png')}}" alt="">
@@ -140,10 +140,10 @@
       </section> -->
       <section class="services">
         <div class="container">
-            <div class="row">
+            <div class="row" style="justify-content:space-between">
                 <div class="col-md-12">
                     <h4 class="title" data-aos="zoom-out-left" data-aos-duration="1000">Our Services</h4>
-                    <p class="font-lora" data-aos="zoom-out-left" data-aos-duration="1000">Lorem ipsum is a pseudo-Latin text used in web design typography layout </p>
+                    <p class="font-lora" data-aos="zoom-out-left" data-aos-duration="1000">At TeamOrange, our journey is marked by innovation and growth. <br> Our goal was to deliver cutting-edge solutions with excellence.</p>
                 </div>
                 @foreach($services as $se)
                 <div class="col-md-4" data-aos="zoom-out-left" data-aos-duration="1000">
