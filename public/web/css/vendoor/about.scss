@@ -1,0 +1,38 @@
+
+@import '../responsive.scss';
+.about{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    .btn{
+        @include respond-to(small){
+            margin-bottom: 40px;
+        }
+    }img{
+        @include respond-to(small){
+            height: 250px;
+            object-fit: cover;
+        }
+    }
+}
+.about-section-second{
+    background: var(--secondary);
+    margin: 0;
+    padding: 0;
+    .img-box{
+        padding: 0!important;
+        margin: 0!important;
+        img{
+            height: 400px;
+            object-fit: cover;
+            object-position: center
+        }
+    }
+    .content-box{
+        color: white;
+        margin-top: 50px;
+        margin-left: 30px;
+        @include respond-to(small){
+            margin-bottom: 40px;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+@import '../responsive.scss';
+.logoslider{
+    background: #efefef;
+    img{
+        padding: 30px;
+        @include respond-to(small){
+            height: 150px;
+            object-fit: contain;
+        }
+    }
+}

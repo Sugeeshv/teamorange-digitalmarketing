@@ -1,0 +1,13 @@
+.logoslider {
+  background: #efefef;
+}
+.logoslider img {
+  padding: 30px;
+}
+@media (max-width: 600px) {
+  .logoslider img {
+    height: 150px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}/*# sourceMappingURL=logoslider.css.map */

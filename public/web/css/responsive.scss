@@ -1,0 +1,27 @@
+// _variables.scss
+
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+
+$font-size-base: 16px;
+
+$breakpoint-small: 600px;
+$breakpoint-medium: 900px;
+$breakpoint-large: 1200px;
+
+
+@mixin respond-to($breakpoint) {
+    @if $breakpoint == small {
+      @media (max-width: $breakpoint-small) {
+        @content;
+      }
+    } @else if $breakpoint == medium {
+      @media (max-width: $breakpoint-medium) {
+        @content;
+      }
+    } @else if $breakpoint == large {
+      @media (max-width: $breakpoint-large) {
+        @content;
+      }
+    }
+  }

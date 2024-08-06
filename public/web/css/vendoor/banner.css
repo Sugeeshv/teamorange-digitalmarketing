@@ -1,0 +1,89 @@
+.banner {
+  overflow: hidden;
+  position: relative;
+  color: white;
+  padding-bottom: 100px;
+}
+.banner.sm .banner-content {
+  padding-top: 170px !important;
+}
+@media (max-width: 600px) {
+  .banner.sm .banner-content {
+    padding-top: 250px;
+  }
+}
+.banner::after {
+  content: "";
+  height: 800px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3882352941);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.banner img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 600px) {
+  .banner img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+.banner .banner-content {
+  position: relative;
+  padding-top: 300px;
+  z-index: 10;
+}
+@media (max-width: 600px) {
+  .banner .banner-content {
+    padding-top: 250px;
+  }
+}
+.banner .banner-content h1 {
+  color: white;
+  font-size: 60px;
+  font-family: "Rufina";
+}
+@media (max-width: 600px) {
+  .banner .banner-content h1 {
+    font-size: 39px;
+  }
+}
+.banner .banner-content .comp1 {
+  position: absolute;
+  top: auto;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  bottom: 0;
+}
+.banner .banner-content .comp2 {
+  position: absolute;
+  bottom: auto;
+  right: 0;
+  left: auto;
+  width: 100px;
+  height: 100px;
+  top: 0;
+}
+
+.banner-bottom {
+  background: var(--primary);
+  padding: 20px 0px;
+}
+.banner-bottom li{
+  list-style: none;
+  margin-right: 10px;
+}
+.banner-bottom li a{
+  text-decoration: none;
+}
+.banner-bottom p {
+  padding: 0;
+  margin: 0;
+}/*# sourceMappingURL=banner.css.map */

@@ -1,0 +1,38 @@
+.btn {
+  font-size: 18px;
+  border-radius: 50px;
+  padding: 10px 30px;
+  font-weight: 500;
+}
+@media (max-width: 600px) {
+  .btn {
+    position: relative;
+    z-index: 100;
+    font-size: 15px;
+  }
+}
+
+.btn-primary {
+  color: black !important;
+  background: var(--primary);
+  border: solid 0px;
+}
+.btn-primary:hover {
+  background: #decc22;
+}
+
+.btn-border {
+  background: transparent;
+  border: solid 4px white;
+  color: white;
+}
+@media (max-width: 600px) {
+  .btn-border {
+    border: solid 3px;
+  }
+}
+
+.btn-shadow {
+  box-shadow: 1px 5px 9px 0px rgba(0, 0, 0, 0.3215686275);
+  color: white;
+}/*# sourceMappingURL=button.css.map */
