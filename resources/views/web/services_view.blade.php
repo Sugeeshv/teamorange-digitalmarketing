@@ -90,8 +90,7 @@
                 </div>
             </div>
         </div>
-      </section>
-      <section class="banner-bottom" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="2000">
+      <div class="banner-bottom" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="2000">
         <div class="container">
             <ul class="d-flex">
                 <li><a href="{{url('services')}}">Services</a></li>
@@ -99,6 +98,7 @@
                 <li><p>{{$service->title}}</p></li>
             </ul>
         </div>
+      </div>
       </section>
       <section class="mt-40 mb-5 services-inner">
         <div class="container">
