@@ -70,7 +70,7 @@
 .services .services-box:hover a {
   animation-name: example;
   animation-duration: 0.5s;
-  bottom: 0px;
+  bottom: 6px;
   right: 0px;
 }
 
