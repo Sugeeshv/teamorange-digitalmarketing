@@ -58,7 +58,7 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-           <img  style="height:80vh" src="{{asset('web/images/modal.jpeg')}}" alt="">
+           <img class="w-100" src="{{asset('web/images/modal.jpeg')}}" alt="">
           </div>
           <!-- <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
