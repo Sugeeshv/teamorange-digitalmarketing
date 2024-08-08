@@ -85,7 +85,7 @@
 															<a href="{{url('services-distroy',$ser->id)}}" class="btn btn-primary">Delete</a>
 															<a href="{{url('services-view',$ser->id)}}" class="btn btn-primary ms-2 ">View</a>
 															<!-- <a href="{{url('services-view',$ser->id)}}" class="btn btn-primary ms-2 ">View</a>	   -->
-															<a href="{{url('services-edit',$ser->id)}}" type="button" class="btn btn-primary">Large modal</a>
+															<a href="{{url('services-edit',$ser->id)}}" type="button" class="btn btn-primary">Edit</a>
 														</div>
 													</td>
                                                 </tr>
