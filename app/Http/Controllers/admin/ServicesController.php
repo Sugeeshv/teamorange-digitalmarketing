@@ -21,6 +21,8 @@ class ServicesController extends Controller
             'title' => 'required|string|min:3',
             'short' => 'required|string|min:3|max:200',
             'description' => 'required|string|min:3',
+            'thumbnails' => 'required',
+            'img' => 'required',
         ]);
 
         // thumbnail

@@ -16,7 +16,7 @@
             <div class="row">
                 <div class="col-md-9 m-auto text-center">
                     <h1 data-aos="fade-up" data-aos-duration="3000" data-aos-delay="500">Team orange waterproof works & also we undertake all kinds of civil construction works</h1>
-                    <p class="fs-17" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="700">Team Orange excels in providing top-notch waterproofing solutions and undertakes all types of civil construction projects, delivering expertise and quality in every aspect of construction and protection.</p>
+                    <p class="fs-17" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="700">Team Orange excels in providing top-notch waterproofing solutions and undertakes all types of civil construction projects, delivering expertise and quality in every aspect of construction and protection, with 12 years of experience.</p>
                     <a type="button" href="{{url('services')}}" class="btn btn-primary btn-shadow" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="900">Services</a>
                     <a type="button" href="{{url('contact')}}" class="btn btn-border pl-4" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="1000">Contact us</a>
                 </div>

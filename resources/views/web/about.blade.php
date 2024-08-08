@@ -109,7 +109,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-5 img-box">
-                    <img src="{{asset('web/images/about/about4.png')}}" class="w-100" alt="" data-aos="zoom-in-left" data-aos-duration="1000">
+                    <img src="{{asset('web/images/about/about4.4.png')}}" class="w-100" alt="" data-aos="zoom-in-left" data-aos-duration="1000">
                 </div>
                 <div class="col-md-6">
                     <div class="content-box">
@@ -176,7 +176,6 @@
 
                     <div class="services-slider-content">
                             <h2 class="h4 fs-50"></h2>
-                            <!-- <p>{{$se->description}}</p> -->
                             <a href="{{url('services-view',$se->id)}}">{{$se->title}}</a>
                         </div>
                     </div>

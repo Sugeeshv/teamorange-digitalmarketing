@@ -94,7 +94,7 @@
 }
 .services-slider .services-slider-box .services-slider-content{
   position: absolute;
-  top: 80%;
+  top: 70%;
   padding: 10px;  
   height: 100%;
   background-color: #ffbb6bc7;
@@ -110,6 +110,12 @@
   color: white;
   text-decoration: none;
   transition: 0.3s;
+}
+@media (max-width: 600px) {
+  
+  .services-slider .services-slider-box .services-slider-content a{
+      font-size: 30px;
+  }
 }
   /* .services-slider-box:hover .services-slider-content{
     top: 0;

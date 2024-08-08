@@ -76,9 +76,9 @@
                         <p>Social media</p>
                         <ul class="social">
                             <li><a href="tel:9847219155"> <i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
-                            <li><a href="https://www.facebook.com/rahemon?mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.facebook.com/people/Team-orange-waterproofing-works/100068100332980/?mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
                             <!-- <li><a href=""><i class="fa fa-twitter" aria-hidden="true" target="_blank"></i></a></li> -->
-                            <li><a href="https://www.instagram.com/raheez_ziya_khan?igsh=Z2VrYXJkOWpmdGsz" target="_blank"><i class="fa fa-instagram" aria-hidden="true" target="_blank"></i></a></li>
+                            <li><a href="https://www.instagram.com/team53034?igsh=MW52ODdqNGNoeTY2cA==" target="_blank"><i class="fa fa-instagram" aria-hidden="true" target="_blank"></i></a></li>
                             <!-- <li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true" target="_blank"></i></a></li> -->
                         </ul>
                     </div>

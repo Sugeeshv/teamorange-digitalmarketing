@@ -21,6 +21,11 @@
   left: 0;
   top: 0;
 }
+@media (max-width: 900px) {
+  .services .services-box::after {
+    height: 880px!important;
+  }
+}
 .banner img {
   position: absolute;
   top: 0;
