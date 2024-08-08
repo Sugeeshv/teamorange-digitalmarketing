@@ -40,7 +40,7 @@ nav ul li a.active {
 .top-nav {
   position: absolute !important;
   width: 100%;
-  z-index: 10000;
+  z-index: 100;
   padding-top: 10px;
   background: #3a3c3b8c;
 }
