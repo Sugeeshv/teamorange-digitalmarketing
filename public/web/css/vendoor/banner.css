@@ -48,6 +48,7 @@
 @media (max-width: 600px) {
   .banner .banner-content {
     padding-top: 250px;
+    padding-bottom: 100px;
   }
 }
 .banner .banner-content h1 {
