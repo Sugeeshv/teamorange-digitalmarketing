@@ -53,7 +53,7 @@
 .banner .banner-content h1 {
   color: white;
   font-size: 45px;
-  font-family: "poppins";
+  font-family: "Poppins", sans-serif;
 }
 @media (max-width: 600px) {
   .banner .banner-content h1 {

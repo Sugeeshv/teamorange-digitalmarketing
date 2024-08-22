@@ -154,7 +154,8 @@
 }
 body,html{
 
-  font-family: "poppins";
+  
+  font-family: "Poppins", sans-serif;
 }
 .fs-19 {
   font-size: 19px;
@@ -223,7 +224,8 @@ body,html{
 }
 
 .font-lora {
-  font-family: "poppins";
+  
+  font-family: "Poppins", sans-serif;
   opacity: 10;
 }
 
