@@ -52,12 +52,12 @@
 }
 .banner .banner-content h1 {
   color: white;
-  font-size: 60px;
+  font-size: 45px;
   font-family: "poppins";
 }
 @media (max-width: 600px) {
   .banner .banner-content h1 {
-    font-size: 39px;
+    font-size: 28px;
   }
 }
 .banner .banner-content .comp1 {

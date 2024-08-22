@@ -56,6 +56,13 @@
 .services .services-box .services-content .h4{
   color: #fed29efa;
 }
+
+@media (max-width: 600px) {
+  .services .services-box .services-content{
+    text-align: center;
+  }
+
+}
 .services .services-box .services-content a {
   position: absolute;
   bottom: -50px;

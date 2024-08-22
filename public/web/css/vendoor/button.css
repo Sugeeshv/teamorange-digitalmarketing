@@ -13,18 +13,25 @@
 }
 
 .btn-primary {
-  color: rgb(255, 255, 255) !important;
+  color: black !important;
   background: var(--primary);
   border: solid 0px;
+  border:solid 4px var(--primary);
 }
 .btn-primary:hover {
   background: #decc22;
+  border:solid 4px #decc22;
+  color: black!important;
 }
 
 .btn-border {
   background: transparent;
   border: solid 4px white;
   color: white;
+}
+.btn-border:hover{
+  color: var(--primary);
+  border:solid 4px var(--primary);
 }
 @media (max-width: 600px) {
   .btn-border {

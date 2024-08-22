@@ -3,6 +3,12 @@
   margin-bottom: 50px;
 }
 
+@media (max-width: 600px) {
+  .contact{
+    text-align: center;
+  }
+}
+
 .form-control {
   border: solid 0px;
   background: #F8FAFC;

@@ -33,6 +33,9 @@ nav .navbar-brand .logo {
 nav ul li a {
   color: rgba(255, 255, 255, 0.693);
 }
+nav ul li a:focus{
+  color: var(--primary)!important;
+}
 nav ul li a.active {
   color: white;
 }
@@ -83,6 +86,12 @@ footer ul {
 footer ul li {
   list-style: none;
   margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  footer {
+    text-align: center;
+  }
 }
 footer ul li.heading {
   margin-bottom: 15px;

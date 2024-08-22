@@ -154,7 +154,7 @@
 }
 body,html{
 
-  font-family: "Roboto";
+  font-family: "poppins";
 }
 .fs-19 {
   font-size: 19px;
@@ -166,6 +166,12 @@ body,html{
   width: -moz-fit-content;
   width: fit-content;
   font-size: 30px;
+}
+
+@media (max-width: 600px) {
+  .title {
+    margin: auto;
+  }
 }
 .title::after {
   content: "";
@@ -217,7 +223,7 @@ body,html{
 }
 
 .font-lora {
-  font-family: "Lora";
+  font-family: "poppins";
   opacity: 10;
 }
 
