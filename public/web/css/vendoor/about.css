@@ -46,6 +46,7 @@
 @media (max-width: 600px) {
   .about-section-second .content-box {
     margin-bottom: 40px;
+    margin-left: 0px;
     text-align: center;
   }
 }/*# sourceMappingURL=about.css.map */

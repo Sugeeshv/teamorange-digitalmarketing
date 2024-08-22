@@ -298,3 +298,9 @@ video{
 .text-primary{
   color: #87bfdb!important;
 }
+
+@media (max-width: 600px) {
+  p{
+    text-align: justify;
+  }
+}
