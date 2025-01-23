@@ -4,7 +4,7 @@ data-aos-duration="3000" data-aos-delay="300">
             <div class="row">
                 <div class="col-md-12">
                     <ul>
-                        <li><a href="tel:9847219155"> <i class="fa fa-phone" aria-hidden="true"></i>+919847219155</a></li>
+                        <li><a href="tel:9895728007"> <i class="fa fa-phone" aria-hidden="true"></i>+919895728007</a></li>
                         <li><a href="mailto:teamorange007@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> teamorange007@gmail.com</a></li>
                         <li><a href="https://maps.app.goo.gl/hmVV9nz7nwS64pr97" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i> Westhill, Chungam, Calicut</a></li>
                     </ul>
